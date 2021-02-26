@@ -239,6 +239,9 @@ footer nav a {
 
 
 #boxes2 .container #box2{
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
 	line-height: : 5px;
 }
 
@@ -260,6 +263,10 @@ footer nav a {
 		text-align:center;
 		width: 100%;
 		margin-right: 15px;
+	}
+
+	#box2 {
+
 	}
 
 	nav {
